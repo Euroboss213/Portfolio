@@ -213,18 +213,18 @@ nav{
     justify-content: center;
     color: #fafafa;
     height: 100%;
-    margin-top: 0px;
+    margin-top: -30px;
 }
     .welcome .h1{
         font-family: 'Dhurjati';
-        font-size: 41px;
+        font-size: 30px;
         margin: 0px;
         font-weight: 10;
         height: 40px;
     }
     .welcome p{
         font-family: 'Dhurjati';
-        font-size: 31px;
+        font-size: 25px;
         margin: 0px;
         height: 40px;
     }
