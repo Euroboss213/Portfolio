@@ -1,0 +1,234 @@
+html{
+    height: 90vh;
+}
+body{
+    background-color: #1D1D1C;
+    margin: 0px;
+    height: 89.5vh;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    color: #09B9C2;
+    justify-content: space-between;
+    height: 10.5vh;
+}
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        align-items: end;
+        justify-content: start;
+        margin-left: 4%;
+        position: relative;
+    }
+        .left-top{
+            display: flex;
+            flex-direction: column;
+            width: 117%;
+            height: 30px;
+            justify-content: space-around;
+            position: absolute; /* Make it overlap */
+            top: 0; /* Position at the top */
+            z-index: 2;
+            margin-left: 90%;
+        }
+            .bulb{
+                display: flex;
+                justify-content: space-around;
+                height: 15px;
+            }
+            .rope{
+                display: flex;
+                justify-content: space-around;
+                height: 15px;
+            }
+                .bulb img {
+                    height: 18px;
+                    width: 37px;
+                    transition: box-shadow 3s ease;
+                    transition: background-color 0s ease;   
+                    /* background-color: rgba(255, 255, 255, 0.123); */
+                    border-radius: 100%;
+                }
+                .rope img{
+                    height: 18px;
+                    width: 	37px;
+                }
+            
+        .left-bot{
+            width: 100%;
+            height: 30px;
+            position: absolute; /* Make it overlap */
+            top: 0; /* Ensure it starts at the same top position */
+            z-index: 1;
+            margin-top: 10px;
+        }
+            .left-bot p{
+                color: #09B9C2;
+                font-family: 'Dhurjati';
+                font-size: 41px;
+                height: 60px;
+                text-decoration: none;
+                margin: 0px 0px;
+                text-align: left;
+            }
+    .right{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: 65%;
+        margin-right: 2%;
+    }
+        .right p{
+            cursor: pointer;
+            color: #fafafa;
+            font-family: 'Actor';
+            font-size:20px;
+            text-decoration: none;
+            margin: 0px 40px 0px 40px;
+        }
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    height: 100%;
+    margin-top: -40px;
+}
+    .welcome .h1{
+        font-family: 'Dhurjati';
+        font-size: 81px;
+        margin: 0px;
+        font-weight: 10;
+        height: 80px;
+    }
+    .welcome p{
+        font-family: 'Dhurjati';
+        font-size: 51px;
+        margin: 0px;
+        height: 80px;
+    }
+
+@media only screen and (max-width:600px) {
+html{
+    height: 100%;
+}
+body{
+    background-color: #1D1D1C;
+    margin: 0px;
+    height: 89.5%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    color: #09B9C2;
+    justify-content: space-between;
+    height: 10.5%;
+}
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: end;
+        justify-content: start;
+        margin: 0px;
+        position: relative;
+    }
+        .left-top{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 30px;
+            justify-content: space-around;
+            position: absolute; /* Make it overlap */
+            top: 0; /* Position at the top */
+            z-index: 2;
+            margin-left: 90%;
+        }
+            .bulb{
+                display: flex;
+                justify-content: space-evenly;
+                height: 15px;
+            }
+            .rope{
+                display: flex;
+                justify-content: space-evenly;
+                height: 15px;
+            }
+                .bulb img {
+                    height: 18px;
+                    width: 37px;
+                    transition: box-shadow 3s ease;
+                    transition: background-color 0s ease;   
+                    /* background-color: rgba(255, 255, 255, 0.123); */
+                    border-radius: 100%;
+                }
+                .rope img{
+                    height: 18px;
+                    width: 	37px;
+                }
+            
+        .left-bot{
+            width: 100%;
+            height: 30px;
+            position: absolute; /* Make it overlap */
+            top: 0; /* Ensure it starts at the same top position */
+            z-index: 1;
+            margin-top: 0px;
+        }
+            .left-bot p{
+                color: #09B9C2;
+                font-family: 'Dhurjati';
+                font-size: 41px;
+                height: 60px;
+                text-decoration: none;
+                margin: 0px 0px;
+                text-align: center;
+            }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 65px 0px 0px 0px;
+    }
+        .right p{
+            cursor: pointer;
+            color: #fafafa;
+            font-family: 'Actor';
+            font-size:15px;
+            text-decoration: none;
+            margin: 0px 10px 0px 10px;
+        }
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    height: 100%;
+    margin-top: 0px;
+}
+    .welcome .h1{
+        font-family: 'Dhurjati';
+        font-size: 41px;
+        margin: 0px;
+        font-weight: 10;
+        height: 40px;
+    }
+    .welcome p{
+        font-family: 'Dhurjati';
+        font-size: 31px;
+        margin: 0px;
+        height: 40px;
+    }
+}
+
+
+/* border: 1px solid #09B9C2; */
