@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color: #000000;
-    margin: 0px;
+    margin: 0.5px;
     height: 89.5vh;
     box-sizing: border-box;
 }
@@ -30,7 +30,7 @@ nav{
             height: 30px;
             justify-content: space-around;
             position: absolute; /* Make it overlap */
-            top: 0; /* Position at the top */
+            top: 0.5; /* Position at the top */
             z-index: 2;
             margin-left: 90%;
         }
@@ -61,7 +61,7 @@ nav{
             width: 100%;
             height: 30px;
             position: absolute; /* Make it overlap */
-            top: 0; /* Ensure it starts at the same top position */
+            top: 0.5; /* Ensure it starts at the same top position */
             z-index: 1;
             margin-top: 10px;
         }
@@ -71,7 +71,7 @@ nav{
                 font-size: 41px;
                 height: 60px;
                 text-decoration: none;
-                margin: 0px 0px;
+                margin: 0.5px 0px;
                 text-align: left;
             }
     .right{
@@ -87,40 +87,189 @@ nav{
             font-family: 'Actor';
             font-size:20px;
             text-decoration: none;
-            margin: 0px 40px 0px 40px;
+            margin: 0.5px 40px 0px 40px;
         }
 
 
-.welcome{
+.bodyCont {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fafafa;
-    height: 100%;
-    margin-top: -40px;
 }
-    .welcome .h1{
-        font-family: 'Dhurjati';
-        font-size: 81px;
-        margin: 0px;
-        font-weight: 10;
-        height: 80px;
+
+    .bcTop{
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
-    .welcome p{
-        font-family: 'Dhurjati';
-        font-size: 51px;
-        margin: 0px;
-        height: 80px;
+    .bcBot{
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
+        .t1{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+        .t2{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+        .t3{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+        .b1{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+        .b2{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+        .b3{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #09B9C2; */
+        }
+            #piccode{
+                filter: blur(0);
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                /* margin-left: 25%;
+                margin-top: 32%; */
+                margin: 32% 0% 0% 25%;
+                rotate: -20deg;
+            }
+            #picphp{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 7% 0% 0% 39%;
+                rotate: 50deg;
+            }
+            #pichtml{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 22% 0% 0% 23%;
+                rotate: 30deg;
+            }
+            #piclogic{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 10% 0% 0% 28%;
+            }
+            #picpup{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 45px;
+                width: 45px;
+                margin: 20% 0% 0% 28%;
+                rotate: -10deg;
+            }
+            #picgit{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 24% 0% 0% 26%;
+            }
+            #picnoctyx{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                margin: 2% 0% 0% 35%;
+                rotate: 20deg;
+            }
+            #picreact{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 24% 0% 0% 38%;
+                rotate: 90deg;
+            }
+            #picjs{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 17% 0% 0% 15%;
+                rotate: 40deg;
+            }
+            #picdebug{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 19% 0% 0% 38%;
+            }
+            #piccss{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 20% 0% 0% 20%;
+                rotate: -10deg;
+            }
+            #picweb{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 10% 0% 0% 17%;
+            }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fafafa;
+        margin-top: -40px;
+    }
+        .welcome .h1{
+            font-family: 'Dhurjati';
+            font-size: 81px;
+            margin: 0.5px;
+            font-weight: 10;
+            height: 80px;
+        }
+        .welcome p{
+            font-family: 'Dhurjati';
+            font-size: 51px;
+            margin: 0.5px;
+            height: 80px;
+        }
 
 @media only screen and (max-width:600px) {
 html{
     height: 100%;
 }
 body{
-    background-color: #1D1D1C;
-    margin: 0px;
+    background-color: #000000;
+    margin: 0.5px;
     height: 89.5%;
     box-sizing: border-box;
 }
@@ -137,7 +286,7 @@ nav{
         width: 100%;
         align-items: end;
         justify-content: start;
-        margin: 0px;
+        margin: 0.5px;
         position: relative;
     }
         .left-top{
@@ -147,7 +296,7 @@ nav{
             height: 30px;
             justify-content: space-around;
             position: absolute; /* Make it overlap */
-            top: 0; /* Position at the top */
+            top: 0.5; /* Position at the top */
             z-index: 2;
             margin-left: 90%;
         }
@@ -178,9 +327,9 @@ nav{
             width: 100%;
             height: 30px;
             position: absolute; /* Make it overlap */
-            top: 0; /* Ensure it starts at the same top position */
+            top: 0.5; /* Ensure it starts at the same top position */
             z-index: 1;
-            margin-top: 0px;
+            margin-top: 0.5px;
         }
             .left-bot p{
                 color: #09B9C2;
@@ -188,7 +337,7 @@ nav{
                 font-size: 41px;
                 height: 60px;
                 text-decoration: none;
-                margin: 0px 0px;
+                margin: 0.5px 0px;
                 text-align: center;
             }
     .right{
@@ -204,30 +353,181 @@ nav{
             font-family: 'Actor';
             font-size:15px;
             text-decoration: none;
-            margin: 0px 10px 0px 10px;
+            margin: 0.5px 10px 0px 10px;
         }
-.welcome{
+
+.bodyCont {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fafafa;
-    height: 100%;
-    margin-top: -30px;
 }
-    .welcome .h1{
-        font-family: 'Dhurjati';
-        font-size: 30px;
-        margin: 0px;
-        font-weight: 10;
-        height: 40px;
+
+    .bcTop{
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
-    .welcome p{
-        font-family: 'Dhurjati';
-        font-size: 25px;
-        margin: 0px;
-        height: 40px;
+    .bcBot{
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
+        .t1{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+        .t2{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+        .t3{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+        .b1{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+        .b2{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+        .b3{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            border: 1px solid #09B9C2;
+        }
+            #piccode{
+                filter: blur(0);
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                /* margin-left: 25%;
+                margin-top: 32%; */
+                margin: 70% 0% 0% 10%;
+                rotate: -20deg;
+            }
+            #picphp{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 35% 0% 0% 20%;
+                rotate: 50deg;
+            }
+            #pichtml{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 72% 0% 0% 10%;
+                rotate: 30deg;
+            }
+            #piclogic{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 55% 0% 0% 18%;
+            }
+            #picpup{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 45px;
+                width: 45px;
+                margin: 40% 0% 0% 15%;
+                rotate: -10deg;
+            }
+            #picgit{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 68% 0% 0% 16%;
+            }
+            #picnoctyx{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                margin: 30% 0% 0% 20%;
+                rotate: 20deg;
+            }
+            #picreact{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 64% 0% 0% 18%;
+                rotate: 90deg;
+            }
+            #picjs{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 57% 0% 0% 15%;
+                rotate: 40deg;
+            }
+            #picdebug{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 29% 0% 0% 10%;
+            }
+            #piccss{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 70% 0% 0% 7%;
+                rotate: -10deg;
+            }
+            #picweb{
+                opacity: 0.5;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 40% 0% 0% 14%;
+            }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fafafa;
+        height: 100%;
+        margin-top: -30px;
+    }
+        .welcome .h1{
+            font-family: 'Dhurjati';
+            font-size: 30px;
+            margin: 0.5px;
+            font-weight: 10;
+            height: 40px;
+        }
+        .welcome p{
+            font-family: 'Dhurjati';
+            font-size: 25px;
+            margin: 0.5px;
+            height: 40px;
+        }
 }
 
 

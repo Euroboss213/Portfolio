@@ -1,0 +1,115 @@
+function popup() {
+    const code = document.getElementById("piccode")
+    const php = document.getElementById("picphp")
+    const html = document.getElementById("pichtml")
+    const logic = document.getElementById("piclogic")
+    const pup = document.getElementById("picpup")
+    const git = document.getElementById("picgit")
+    const noctyx = document.getElementById("picnoctyx")
+    const react = document.getElementById("picreact")
+    const js = document.getElementById("picjs")
+    const debug = document.getElementById("picdebug")
+    const css = document.getElementById("piccss")
+    const web = document.getElementById("picweb")
+
+    setInterval(() =>{
+        code.style.filter = "blur(0)"
+        code.style.margin = "32% 0% 0% 25%"
+        setTimeout(() => {
+            code.style.filter = "blur(2px)"
+            code.style.margin = "32% 0% 0% 25%"
+        }, 2000)
+    }, 8000) //repeater
+
+    setInterval(() =>{
+        php.style.filter = "blur(0)"
+        php.style.margin = "7% 0% 0% 29%"
+        setTimeout(() => {
+            php.style.filter = "blur(2px)"
+            php.style.margin = "7% 0% 0% 29%"
+        }, 1500)
+    }, 6000) //repeater
+
+    setInterval(() =>{
+        html.style.filter = "blur(0)"
+        setTimeout(() => {
+            html.style.filter = "blur(2px)"
+        }, 3000)
+    }, 6000) //repeater
+
+    setInterval(() =>{
+        logic.style.filter = "blur(0)"
+        setTimeout(() => {
+            logic.style.filter = "blur(2px)"
+        }, 3000)
+    }, 8000) //repeater
+
+    setInterval(() =>{
+        pup.style.filter = "blur(0)"
+        setTimeout(() => {
+            pup.style.filter = "blur(2px)"
+        }, 3000)
+    }, 5500) //repeater
+
+    setInterval(() =>{
+        git.style.filter = "blur(0)"
+        setTimeout(() => {
+            git.style.filter = "blur(2px)"
+        }, 1500)
+    }, 3000) //repeater
+
+    setInterval(() =>{
+        noctyx.style.filter = "blur(0)"
+        setTimeout(() => {
+            noctyx.style.filter = "blur(2px)"
+        }, 1500)
+    }, 3500) //repeater
+    
+    setInterval(() =>{
+        react.style.filter = "blur(0)"
+        setTimeout(() => {
+            react.style.filter = "blur(2px)"
+        }, 3250)
+    }, 6500) //repeater
+
+    setInterval(() =>{
+        js.style.filter = "blur(0)"
+        setTimeout(() => {
+            js.style.filter = "blur(2px)"
+            setTimeout(() => {
+                js.style.filter = "blur(0)"
+                setTimeout(() => {
+                    js.style.filter = "blur(2px)"
+                }, 1500)
+            }, 1500)
+        }, 3000)
+    }, 9000) //repeater
+
+    setInterval(() =>{
+        debug.style.filter = "blur(0)"
+        setTimeout(() => {
+            debug.style.filter = "blur(2px)"
+        }, 2000)
+    }, 4000) //repeater
+
+    setInterval(() =>{
+        css.style.filter = "blur(0)"
+        setTimeout(() => {
+            css.style.filter = "blur(2px)"
+        }, 3000)
+    }, 5000) //repeater
+
+    setInterval(() =>{
+        web.style.filter = "blur(0)"
+        setTimeout(() => {
+            web.style.filter = "blur(2px)"
+        }, 1500)
+    }, 6000) //repeater
+}
+
+
+
+window.addEventListener("load", popup)
+// window.onload = function() {
+//     popup();
+// }

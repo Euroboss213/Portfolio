@@ -38,7 +38,9 @@ function lightTheBulb2() {
     }, 1500); // Repeat every 1.5 seconds
 }
 
-window.onload = function() {
-    lightTheBulb1();
-    lightTheBulb2();
-};
+window.addEventListener("load", lightTheBulb1)
+window.addEventListener("load", lightTheBulb2)
+// window.onload = function() {
+//     lightTheBulb1();
+//     lightTheBulb2();
+// };
