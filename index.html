@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/page2.css">
+    <link rel="stylesheet" href="./style/page3.css">
+    <link rel="stylesheet" href="./style/page4.css">
+    <link rel="stylesheet" href="./style/page5.css">
+    <link rel="stylesheet" href="./style/boxAnimation.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <!-- styles -->
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Dhurjati' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
     <!-- fonts -->
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- icon -->
     <title>Alen Jerru Ganotice</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav">
         <div class="left">
             <div class="left-top">
                 <div class="rope">
@@ -29,12 +44,12 @@
             </div>
         </div>
         <div class="right">
-            <p id="home" style="text-decoration: underline; color: #09B9C2;">Home</p>
-            <p id="portfolio">Portfolio</p>
-            <p id="resume">Resume</p>
+            <p id="home" style="text-decoration: underline; color: #F89700;">Home</p>
+            <p id="portfolio">About me</p>
             <p id="contact">Contact</p>
         </div>
     </nav>
+
     <div class="bodyCont">
         <div class="bcTop">
             <div class="t1">
@@ -51,10 +66,10 @@
                 <img src="./assets/github.png" alt="a" id="picgit">
             </div>
         </div>
-        <div class="welcome">
+        <!-- <div class="welcome">
             <p class="h1" id="greeting">Welcome<span style="font-family: 'Delius Unicase';">,</span> I am Alen Jerru<span style="font-family: 'Delius Unicase';">!</span></p>
             <p id="blue-font"></p>
-        </div>
+        </div> -->
         <div class="bcBot">
             <div class="b1">
                 <img src="./assets/css.png" alt="a" id="piccss">
@@ -71,8 +86,276 @@
         </div>
     </div>
 
+    <div class="welcome">
+        <p class="h1" id="greeting">Welcome<span style="font-family: 'Delius Unicase';">,</span> I am Alen Jerru<span style="font-family: 'Delius Unicase';">!</span></p>
+        <p id="blue-font"></p>
+    </div>
+
+    <!-- <div class="page2">
+        <p class="h1" id="greeting">Welcome<span style="font-family: 'Delius Unicase';">,</span> I am Alen Jerru<span style="font-family: 'Delius Unicase';">!</span></p>
+        <p id="blue-font"></p>
+    </div> -->
+    <div class="bodyCont2">
+        <div class="bcTop">
+            <div class="t1">
+                <img src="./assets/coding.png" alt="a" id="piccode1">
+                <img src="./assets/php.png" alt="a" id="picphp1">
+                
+            </div>
+            <div class="t2">
+                <img src="./assets/htm.png" alt="a" id="pichtml1">
+                <img src="./assets/logic.png" alt="a" id="piclogic1">
+            </div>
+            <div class="t3">
+                <img src="./assets/pupsis.png" alt="a" id="picpup1">
+                <img src="./assets/github.png" alt="a" id="picgit1">
+            </div>
+        </div>
+        <!-- <div class="welcome">
+            <p class="h1" id="greeting">Welcome<span style="font-family: 'Delius Unicase';">,</span> I am Alen Jerru<span style="font-family: 'Delius Unicase';">!</span></p>
+            <p id="blue-font"></p>
+        </div> -->
+        <div class="bcBot">
+            <div class="b1">
+                <img src="./assets/css.png" alt="a" id="piccss1">
+                <img src="./assets/noctyx.png" alt="a" id="picnoctyx1">
+            </div>
+            <div class="b2">
+                <img src="./assets/webdev.png" alt="a" id="picweb1">
+                <img src="./assets/react.png" alt="a" id="picreact1">
+            </div>
+            <div class="b3">
+                <img src="./assets/js.png" alt="a" id="picjs1">
+                <img src="./assets/debug.png" alt="a" id="picdebug1">
+            </div>
+        </div>
+    </div>
+
+    <div class="downpage">
+        <div class="side-nav">
+            <button class="drop-btn" id="dropBtn"><i class="fas fa-bars"></i></button>
+            <div class="drop-cont" id="dropCont">
+                <p id="home1">Home</p>
+                <p id="portfolio1">About me</p>
+                <p id="contact1">Contact</p>
+            </div>
+        </div>
+
+        <div class="page2">
+            <div class="who">
+                Who am I?
+                <span class="bg-text">
+                    Who am I?
+                </span>
+            </div>
+            <div class="self">
+                <div class="self-left">
+                    <img src="./assets/who-pic.jpg" alt="mypicture">
+                </div>
+                <div class="self-right">
+                    <p id="gagi2">I'm Alen Jerru Ganotice, a <span style="color: #F89700;">malambing</span></p>
+                    <span class="self-desc">Ut id urna quis nisl aliquet malesuada. Integer condimentum scelerisque tortor eget egestas. Vivamus non elit pretium, rhoncus elit sed, scelerisque eros. Fusce ultricies orci ut vehicula ullamcorper. Curabitur quis faucibus ipsum. Integer consequat nulla non lorem gravida, et tempor nulla porta. Vestibulum feugiat velit nunc, non bibendum risus feugiat sed. Aliquam risus augue, tempus non neque laoreet, vestibulum euismod quam. Donec interdum metus id sem pharetra, ut convallis velit facilisis.</span>
+                    <span class="line"><hr></span>
+                    <div class="info">
+                        <div class="info-top">
+                            <span class="age">Age : 21</span>
+                            <span class="email">Email : jerrualen@gmail.com</span>
+                        </div>
+                        <div class="info-mid">
+                            <span class="from">From : Philippines</span>
+                            <span class="contact">Contact : +639695815410</span>
+                        </div>
+                        <div class="info-bot">
+                            <button onclick="window.open('https://drive.google.com/file/d/17jCqd79bh4ol_7XGiOx1TlKV2YP6v52R/view?usp=drive_link');">Resume</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page3">
+            <div class="what">
+                What I do
+                <span class="bg-text">What I do</span>
+            </div>
+            <div class="services">
+                <div class="service1">
+                    <div class="s1top">
+                        <img src="./assets/serviceWebDev.png" alt="pic" id="webdev">
+                    </div>
+                    <div class="s1mid">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="s1bot">
+                        <p>Ut id urna quis nisl aliquet malesuada. Integer condimentum scelerisque tortor eget egestas. Vivamus non elit pretium, rhoncus elit sed, scelerisque eros. Fusce ultricies orci ut</p>    
+                    </div>
+                </div>
+                <div class="service2">
+                    <div class="s2top">
+                        <img src="./assets/programmingService.png" alt="pic" id="programming">
+                    </div>
+                    <div class="s2mid">
+                        <p>Programming</p>
+                    </div>
+                    <div class="s2bot">
+                        <p>Ut id urna quis nisl aliquet malesuada. Integer condimentum scelerisque tortor eget egestas. Vivamus non elit pretium, rhoncus elit sed, scelerisque eros. Fusce ultricies orci ut</p>   
+                    </div>
+                </div>
+                <div class="service3">
+                    <div class="s3top">
+                        <img src="./assets/serviceSystemAd.png" alt="pic" id="sysadm">
+                    </div>
+                    <div class="s3mid">
+                        <p>System Administration</p>
+                    </div>
+                    <div class="s3bot">
+                        <p>Ut id urna quis nisl aliquet malesuada. Integer condimentum scelerisque tortor eget egestas. Vivamus non elit pretium, rhoncus elit sed, scelerisque eros. Fusce ultricies orci ut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page4">
+            <div class="skills">
+                Skills
+                <span class="bg-text">
+                    Skills
+                </span>
+            </div>
+            <div class="skillset">
+                <div class="skill1">
+                     <div class="skill-top">
+                        <img src="./assets/js-beginner.png" alt="pic">
+                        <div class="circle1" id="beginner">
+                            <p id="beginner-p">Beginner</p>
+                        </div>
+                     </div>
+                     <div class="skill-bot">
+                        Javascript
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore</p>
+                     </div>
+                </div>
+                <div class="skill2">
+                     <div class="skill-top">
+                        <img src="./assets/css-intermediate.png" alt="">
+                        <div class="circle2" id="intermediate">
+                            <p id="intermediate-p">Intermediate</p>
+                        </div>
+                     </div>
+                     <div class="skill-bot">
+                        CSS
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                     </div>
+                </div>
+                <div class="skill3">
+                     <div class="skill-top">
+                        <img src="./assets/comfort-expert.png" alt="">
+                        <div class="circle3" id="expert">
+                            <p id="expert-p">Expert</p>
+                        </div>
+                     </div>
+                     <div class="skill-bot">
+                        Mang-comfort
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page5">
+            <div class="work">
+                My Works & Experiences
+                <span class="bg-text">
+                    My Works & Experiences
+                </span>
+            </div>
+            <div class="box-nav">
+                <p id="all" style="color: #F89700">All </p>
+                <p>•</p>
+                <p id="webdes">Website Design</p>
+                <p>•</p>
+                <p id="supp">Support</p>
+                <p>•</p>
+                <p id="adm">Administration</p>
+                <p>•</p>
+                <p id="webdevs">Web Dev</p>
+            </div>
+            <div class="boxes" id="box">
+                <div class="pattern1">
+                    <div class="box1" id="wd1"></div>
+                    <div class="box2" id="supp1"></div>
+                </div>
+                <div class="pattern2" id="pat2">
+                    <div class="box3" id="ad1"></div>
+                    <div class="box4" id="wdev1"></div>
+                </div>
+                <div class="pattern1">
+                    <div class="box5" id="wd3"></div>
+                    <div class="box6" id="ad2"></div>
+                </div>
+                <div class="pattern2">
+                    <div class="box7" id="wdev2"></div>
+                    <div class="box8" id="wd2"></div>
+                </div>
+                <div class="pattern2">
+                    <div class="box9" id="wd4"></div>
+                    <div class="box10" id="wdev3"></div>
+                </div>        
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-top">
+            <div class="foot1">
+                <div class="foot1-top">
+                    <p>CONTACT ME!</p>
+                    <span class="contact-text"> AYAW MO? MAG-JOLLIBEE AKO</span>
+                </div>
+                <div class="foot1-bot">
+                    <div class="foot1-bot-left">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="foot1-bot-right">
+                        <p>848 Valdez St. Sampaloc Manila</p>
+                        <p>+639695815410</p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="foot2-top">
+                    <p>Stay Connected</p>
+                </div>
+                <div class="foot2-bot">
+                    <div class="foot2-bot-left">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="foot2-bot-right">
+                        <a href="https://www.facebook.com/ajayganotice/">https://www.facebook.com/ajayganotice/</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jerrualen@gmail.com&su=Contact%20From%20Website&body=Hi%20there,%0A%0AI%20would%20like%20to%20inquire%20about%20...">jerrualen@gmail.com</a>
+                        <a href="https://www.instagram.com/alenjerru/">https://www.instagram.com/alenjerru/</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bot">
+            <p>Designed with broken heart by Alen Jerru Ganotice © 2024</p>
+        </div>
+    </footer>
+
+    <!-- scripts -->
     <script src="./scripts/light.js"></script>
     <script src="./scripts/fontstyles.js"></script>
     <script src="./scripts/popuppics.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/typingAnimation.js"></script>
+    <script src="./scripts/drop.js"></script>
+    <script src="./scripts/skill.js"></script>
+    <script src="./scripts/page5Boxes.js"></script>
+    <!-- scripts -->
 </body>
 </html>

@@ -1,4 +1,7 @@
-const blue = document.getElementById("blue-font")
+const gagi1 = document.getElementById("blue-font")
+const gagi2 = document.getElementById("gagi2")
 
 
-blue.innerHTML = `Aspiring <font color="#09B9C2">Gagi</font> from the Philippines`
+gagi1.innerHTML = `Aspiring <font color="#F89700">Gagi</font> from the Philippines`
+// gagi2.innerHTML = `I'm Alen Jerru Ganotice, a <font color="#F89700">Gagi</font>`
+

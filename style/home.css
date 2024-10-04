@@ -1,18 +1,22 @@
 html{
-    height: 90vh;
+    height: 100vh;
 }
 body{
-    background-color: #000000;
-    margin: 0.5px;
-    height: 89.5vh;
+    background-color: #111111;
+    margin: 0px 0.5px;
+    height: 100vh;
     box-sizing: border-box;
 }
 
 nav{
+    /* position: fixed; */
     display: flex;
-    color: #09B9C2;
+    color: #F89700;
+    background-color: #000000;
     justify-content: space-between;
-    height: 10.5vh;
+    height: 10vh;
+    width: 100%;
+    /* overflow: hidden; */
 }
     .left{
         display: flex;
@@ -66,7 +70,7 @@ nav{
             margin-top: 10px;
         }
             .left-bot p{
-                color: #09B9C2;
+                color: #F89700;
                 font-family: 'Dhurjati';
                 font-size: 41px;
                 height: 60px;
@@ -76,7 +80,7 @@ nav{
             }
     .right{
         display: flex;
-        align-items: end;
+        align-items: start;
         justify-content: end;
         width: 65%;
         margin-right: 2%;
@@ -84,19 +88,23 @@ nav{
         .right p{
             cursor: pointer;
             color: #fafafa;
-            font-family: 'Actor';
-            font-size:20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
             text-decoration: none;
-            margin: 0.5px 40px 0px 40px;
+            margin: 44px 40px 0px 40px;
         }
 
 
 .bodyCont {
-    height: 100%;
+    position: absolute;
     display: flex;
+    background-color: #000000;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 99.9%;
+    height: 90vh;
+    z-index: -1;
 }
 
     .bcTop{
@@ -109,44 +117,14 @@ nav{
         height: 100%;
         width: 100%;
     }
-        .t1{
+        .t1, .t2, .t3, .b1, .b2, .b3{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
-        .t2{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid #09B9C2; */
-        }
-        .t3{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid #09B9C2; */
-        }
-        .b1{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid #09B9C2; */
-        }
-        .b2{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid #09B9C2; */
-        }
-        .b3{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid #09B9C2; */
-        }
+
             #piccode{
-                filter: blur(0);
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
                 height: 40px;
@@ -192,14 +170,14 @@ nav{
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 24% 0% 0% 26%;
+                margin: 34% 0% 0% 26%;
             }
             #picnoctyx{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
                 height: 40px;
                 width: 40px;
-                margin: 2% 0% 0% 35%;
+                margin: 22% 0% 0% 35%;
                 rotate: 20deg;
             }
             #picreact{
@@ -207,7 +185,7 @@ nav{
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 24% 0% 0% 38%;
+                margin: 44% 0% 0% 38%;
                 rotate: 90deg;
             }
             #picjs{
@@ -215,7 +193,7 @@ nav{
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 17% 0% 0% 15%;
+                margin: 37% 0% 0% 15%;
                 rotate: 40deg;
             }
             #picdebug{
@@ -223,14 +201,14 @@ nav{
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 19% 0% 0% 38%;
+                margin: 39% 0% 0% 38%;
             }
             #piccss{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 20% 0% 0% 20%;
+                margin: 40% 0% 0% 20%;
                 rotate: -10deg;
             }
             #picweb{
@@ -238,21 +216,23 @@ nav{
                 transition: opacity 0.7s ease;
                 height: 55px;
                 width: 55px;
-                margin: 10% 0% 0% 17%;
+                margin: 30% 0% 0% 17%;
             }
 
     .welcome{
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 90vh;
         color: #fafafa;
-        margin-top: -40px;
+        z-index: 1;
     }
         .welcome .h1{
             font-family: 'Dhurjati';
             font-size: 81px;
-            margin: 0.5px;
+            margin-top: -60px;
             font-weight: 10;
             height: 80px;
         }
@@ -276,7 +256,7 @@ body{
 nav{
     display: flex;
     flex-direction: column;
-    color: #09B9C2;
+    color: #F89700;
     justify-content: space-between;
     height: 10.5%;
 }
@@ -332,7 +312,7 @@ nav{
             margin-top: 0.5px;
         }
             .left-bot p{
-                color: #09B9C2;
+                color: #F89700;
                 font-family: 'Dhurjati';
                 font-size: 41px;
                 height: 60px;
@@ -378,44 +358,44 @@ nav{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
         .t2{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
         .t3{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
         .b1{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
         .b2{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
         .b3{
             display: flex;
             height: 100%;
             width: 100%;
-            /* border: 1px solid #09B9C2; */
+            /* border: 1px solid #F89700; */
         }
             #piccode{
                 filter: blur(0);
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 40px;
-                width: 40px;
+                height: 20px;
+                width: 20px;
                 /* margin-left: 25%;
                 margin-top: 32%; */
                 margin: 92% 0% 0% 10%;
@@ -424,85 +404,85 @@ nav{
             #picphp{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 35% 0% 0% 12%;
                 rotate: 50deg;
             }
             #pichtml{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 65% 0% 0% 3%;
                 rotate: 30deg;
             }
             #piclogic{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 80% 0% 0% 10%;
             }
             #picpup{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 45px;
-                width: 45px;
+                height: 25px;
+                width: 25px;
                 margin: 60% 0% 0% 8%;
                 rotate: -10deg;
             }
             #picgit{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 75% 0% 0% 16%;
             }
             #picnoctyx{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 40px;
-                width: 40px;
+                height: 20px;
+                width: 20px;
                 margin: 30% 0% 0% 13%;
                 rotate: 20deg;
             }
             #picreact{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 69% 0% 0% 8%;
                 rotate: 90deg;
             }
             #picjs{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 55% 0% 0% 9%;
                 rotate: 40deg;
             }
             #picdebug{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 29% 0% 0% 8%;
             }
             #piccss{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 75% 0% 0% 7%;
                 rotate: -10deg;
             }
             #picweb{
                 opacity: 0.5;
                 transition: opacity 0.7s ease;
-                height: 55px;
-                width: 55px;
+                height: 35px;
+                width: 35px;
                 margin: 40% 0% 0% 10%;
             }
 
@@ -531,4 +511,4 @@ nav{
 }
 
 
-/* border: 1px solid #09B9C2; */
+/* border: 1px solid #F89700; */

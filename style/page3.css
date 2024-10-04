@@ -1,0 +1,282 @@
+
+.downpage ::-webkit-scrollbar {
+    display: none;
+}
+.bodyCont2 {
+    position: fixed;
+    top: 100vh;
+    opacity: 1;
+    transition: top 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99.9%;
+    height: 100vh;
+    z-index: -1;
+    background-color: #111111;
+    overflow: hidden;
+}
+
+    .bcTop{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .bcBot{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+        .t1, .t2, .t3, .b1, .b2, .b3{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid #F89700; */
+        }
+
+            #piccode1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                /* margin-left: 25%;
+                margin-top: 32%; */
+                margin: 52% 0% 0% 25%;
+                rotate: -20deg;
+            }
+            #picphp1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 27% 0% 0% 39%;
+                rotate: 50deg;
+            }
+            #pichtml1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 42% 0% 0% 23%;
+                rotate: 30deg;
+            }
+            #piclogic1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 30% 0% 0% 38%;
+            }
+            #picpup1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 45px;
+                width: 45px;
+                margin: 40% 0% 0% 28%;
+                rotate: -10deg;
+            }
+            #picgit1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 54% 0% 0% 26%;
+            }
+            #picnoctyx1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 40px;
+                width: 40px;
+                margin: 22% 0% 0% 35%;
+                rotate: 20deg;
+            }
+            #picreact1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 44% 0% 0% 38%;
+                rotate: 90deg;
+            }
+            #picjs1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 37% 0% 0% 15%;
+                rotate: 40deg;
+            }
+            #picdebug1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 39% 0% 0% 38%;
+            }
+            #piccss1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 40% 0% 0% 20%;
+                rotate: -10deg;
+            }
+            #picweb1{
+                opacity: 0;
+                transition: opacity 0.7s ease;
+                height: 55px;
+                width: 55px;
+                margin: 30% 0% 0% 17%;
+            }
+
+.downpage {
+    display: flex;
+    flex-direction: column;
+}        
+.page3 {
+    backdrop-filter: blur(3px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        color: #fafafa;
+        z-index: 1;
+        overflow-x: auto;
+        overflow-x: hidden;
+}
+    .what {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: 100%;
+        height: 17%;
+        margin: 40px 0px 0px 0px;
+        font-family: 'Dhurjati';
+        font-size: 50px;
+        color: #F89700;
+    }
+        .what .bg-text{
+            position: absolute;
+            color: transparent;
+            font-size: 100px;
+            margin: -55px 0px 0px 0px;
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.068); /* width and color */
+        }
+    .services {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 73%;
+        height: 100%;
+        margin: 30px 0px 30px 0px;
+        /* border: 1px solid #F89700; */
+    }
+        .service1, .service2, .service3 {
+            display: flex;
+            flex-direction: column;
+            width: 31%;
+            height: 100%;
+            background-color: #363635;
+            border: 2px solid #363635;    
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+        }
+        .service1:hover, .service2:hover, .service3:hover {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 31%;
+            height: 100%;
+            background-color: #363635;
+            border: 2px solid #F89700;  
+            border-radius: 10px;
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        }
+            .s1top, .s2top, .s3top {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 33%;
+                /* border: 1px solid #F89700; */
+            }
+                #webdev {
+                    height: 60px;
+                    width: 60px;
+                    margin: 15px 0px 0px 15px;
+                }
+                #sysadm {
+                    height: 60px;
+                    width: 60px;
+                    margin: 15px 0px 0px 15px;
+                }
+
+                #programming {
+                    height: 60px;
+                    width: 70px;
+                    margin: 15px 0px 0px 15px;
+                }
+            .s1mid, .s2mid, .s3mid {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                width: 100%;
+                height: 19%;
+                margin: 0px 0px 10px 0px;
+                /* border: 1px solid #F89700; */
+            }
+                .s1mid p {
+                    font-family: 'Allerta';
+                    font-size: 18px;
+                    font-weight: 0;
+                    margin: 5px 0px 0px 25px;
+                }
+                .s2mid p {
+                    font-family: 'Allerta';
+                    font-size: 18px;
+                    font-weight: 0;
+                    margin: 5px 0px 0px 25px;
+                }
+                .s3mid p {
+                    font-family: 'Allerta';
+                    font-size: 18px;
+                    font-weight: 0;
+                    margin: 5px 0px 0px 25px;
+                }
+            .s1bot, .s2bot, .s3bot {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                width: 100%;
+                height: 47%;
+                margin: 0px 0px 15px 0px;
+                /* border: 1px solid #F89700; */
+            }
+                .s1bot p {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: 0;
+                    width: 85%;
+                    margin: 0px 0px 0px 25px;                   
+                }
+                .s2bot p {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: 0;
+                    width: 85%;
+                    margin: 0px 0px 0px 25px;                   
+                }
+                .s3bot p {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: 0;
+                    width: 85%;
+                    margin: 0px 0px 0px 25px;                   
+                }
+                
