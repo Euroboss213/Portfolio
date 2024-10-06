@@ -1,5 +1,6 @@
 html{
     height: 100vh;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #111111;
@@ -85,7 +86,7 @@ nav{
         width: 65%;
         margin-right: 2%;
     }
-        .right p{
+        .right a{
             cursor: pointer;
             color: #fafafa;
             font-family: 'Open Sans', sans-serif;
@@ -327,7 +328,7 @@ nav{
         width: 100%;
         margin: 65px 0px 0px 0px;
     }
-        .right p{
+        .right a{
             cursor: pointer;
             color: #fafafa;
             font-family: 'Actor';

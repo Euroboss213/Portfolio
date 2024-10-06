@@ -1,0 +1,27 @@
+#contact1.active {
+    text-decoration: underline;
+    color: #F89700;
+    font-weight: bold;
+}
+
+#about1.active {
+    text-decoration: underline;
+    color: #F89700;
+    font-weight: bold;
+}
+
+#about1.active:hover {
+    text-decoration: underline;
+    color: #111111;
+    font-weight: bold;
+}
+
+#contact1.active:hover {
+    text-decoration: underline;
+    color: #111111;
+    font-weight: bold;
+}
+
+#home, #about1, #contact1 {
+    transition: color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease;
+}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style/page3.css">
     <link rel="stylesheet" href="./style/page4.css">
     <link rel="stylesheet" href="./style/page5.css">
-    <link rel="stylesheet" href="./style/boxAnimation.css">
+    <link rel="stylesheet" href="./style/sidenavActive.css">
     <link rel="stylesheet" href="./style/footer.css">
     <!-- styles -->
     <!-- fonts -->
@@ -27,7 +27,7 @@
     <title>Alen Jerru Ganotice</title>
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav" id="home">
         <div class="left">
             <div class="left-top">
                 <div class="rope">
@@ -44,9 +44,9 @@
             </div>
         </div>
         <div class="right">
-            <p id="home" style="text-decoration: underline; color: #F89700;">Home</p>
-            <p id="portfolio">About me</p>
-            <p id="contact">Contact</p>
+            <a id="home" style="text-decoration: underline; color: #F89700; font-weight: bold;">Home</a>
+            <a id="portfolio" href="#about">About me</a>
+            <a id="contact" href="#contacts">Contact</a>
         </div>
     </nav>
 
@@ -135,14 +135,14 @@
         <div class="side-nav">
             <button class="drop-btn" id="dropBtn"><i class="fas fa-bars"></i></button>
             <div class="drop-cont" id="dropCont">
-                <p id="home1">Home</p>
-                <p id="portfolio1">About me</p>
-                <p id="contact1">Contact</p>
+                <a id="home1" href="#home">Home</a>
+                <a id="about1" href="#about">About me</a>
+                <a id="contact1" href="#contacts">Contact</a>
             </div>
         </div>
 
         <div class="page2">
-            <div class="who">
+            <div class="who" id="about">
                 Who am I?
                 <span class="bg-text">
                     Who am I?
@@ -305,7 +305,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="contacts">
         <div class="foot-top">
             <div class="foot1">
                 <div class="foot1-top">
@@ -356,6 +356,7 @@
     <script src="./scripts/drop.js"></script>
     <script src="./scripts/skill.js"></script>
     <script src="./scripts/page5Boxes.js"></script>
+    <script src="./scripts/sideNavigation.js"></script>
     <!-- scripts -->
 </body>
 </html>

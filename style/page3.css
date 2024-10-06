@@ -280,3 +280,14 @@
                     margin: 0px 0px 0px 25px;                   
                 }
                 
+
+                @media (max-width: 600px) {
+                    .services {
+                        flex-direction: column; /* Stack services vertically */
+                        width: 100%;
+                    }
+                    .service1, .service2, .service3 {
+                        width: 100%; /* Full width on smaller screens */
+                        margin-bottom: 20px; /* Space between services */
+                    }
+                }

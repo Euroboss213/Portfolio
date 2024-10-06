@@ -324,19 +324,18 @@
             cursor: none;
             pointer-events: none;
         }
-            .drop-cont p {
+            .drop-cont a {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 width: 100%;
                 height: 100%;
-                margin: 0px 0px 0px 0px
+                color: #fafafa;
+                margin: 0px 0px 0px 0px;
+                text-decoration: none;
             }
-                #portfolio1 {
-                    text-decoration: underline;
-                    color: #F89700;
-                }
-            .drop-cont #home1:hover, #portfolio1:hover, #resume1:hover, #contact1:hover{
+                
+            .drop-cont #home1:hover, #about1:hover, #resume1:hover, #contact1:hover{
                 background-color: #F89700;
                 color: #111111;
                 text-align: center;
@@ -347,3 +346,85 @@
 
         
 
+            @media (max-width: 600px) {
+                .bodyCont2 {
+                    position: relative; /* Change to relative for better stacking */
+                    height: auto; /* Allow height to adjust based on content */
+                    overflow: auto; /* Enable scrolling if content overflows */
+                }
+            
+                .bcTop,
+                .bcBot,
+                .t1, .t2, .t3, .b1, .b2, .b3 {
+                    flex-direction: column; /* Stack elements vertically */
+                    height: auto; /* Allow height to adjust based on content */
+                }
+            
+                .self {
+                    flex-direction: column; /* Stack self section items */
+                    gap: 15px; /* Adjust gap for mobile view */
+                    align-items: center; /* Center items */
+                }
+            
+                .self img {
+                    height: 200px; /* Adjust image height for mobile */
+                    width: 100%; /* Make image responsive */
+                    max-width: 300px; /* Ensure images don't get too large */
+                }
+            
+                .who {
+                    font-size: 30px; /* Reduce font size */
+                    margin: 20px 0; /* Adjust margins */
+                }
+            
+                .self-right p {
+                    font-size: 18px; /* Reduce font size */
+                }
+            
+                .self-desc {
+                    font-size: 10px; /* Reduce font size for description */
+                    width: 90%; /* Make description width responsive */
+                }
+            
+                .info {
+                    width: 90%; /* Make info section responsive */
+                }
+            
+                .info-top,
+                .info-mid,
+                .info-bot {
+                    flex-direction: column; /* Stack info items vertically */
+                    height: auto; /* Allow height to adjust */
+                }
+            
+                .info-top .age,
+                .info-mid .from {
+                    width: 100%; /* Full width for labels */
+                }
+            
+                .info-top .email,
+                .info-mid .contact {
+                    text-align: start; /* Align text to start */
+                    width: 100%; /* Full width for input fields */
+                }
+            
+                .side-nav {
+                    width: 80%; /* Make the side nav wider on mobile */
+                    height: auto; /* Adjust height */
+                    position: relative; /* Change to relative for stacking */
+                }
+            
+                .side-nav .drop-btn {
+                    font-size: 20px; /* Reduce font size for buttons */
+                }
+            
+                .drop-cont {
+                    width: 100%; /* Full width for dropdown */
+                    height: auto; /* Adjust height for dropdown */
+                }
+            
+                .drop-cont a {
+                    padding: 10px 0; /* Add padding for easier clicking */
+                }
+            }
+            
