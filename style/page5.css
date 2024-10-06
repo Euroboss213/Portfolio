@@ -124,35 +124,7 @@
 
 
 
-                    @media (max-width: 600px) {
-                        .box-nav {
-                            flex-direction: row; /* Stack navigation items vertically */
-                            align-items: center; /* Center items horizontally */
-                            justify-content: center; /* Center items vertically */
-                            gap: 10px; /* Add spacing between items */
-                            width: 100%; /* Use full width */
-                            height: auto; /* Allow flexible height */
-                        }
-                    
-                        .box-nav p {
-                            font-size: 18px; /* Adjust font size for mobile */
-                            text-align: center; /* Center text */
-                            width: 80%; /* Adjust width for better responsiveness */
-                            margin: 0; /* Remove any default margins */
-                        }
-                        .boxes {
-                            flex-direction: column; /* Stack boxes vertically */
-                            width: 100%; /* Use full width */
-                        }
-                        
-                        .work {
-                            font-size: 30px; /* Reduce font size */
-                        }
-                    
-                        .work .bg-text {
-                            font-size: 60px; /* Reduce background text size */
-                        }
-                    }
+                   
                     
             
                 
