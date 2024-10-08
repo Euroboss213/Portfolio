@@ -194,25 +194,33 @@ footer {
             text-align: center; /* Center text */
         }
     
-        .foot1-bot, .foot2-bot {
+        .foot2-bot {
             flex-direction: row; /* Stack items vertically */
             align-items: center; /* Center items horizontally */
             justify-content: space-between; /* Center items vertically */
             width: 100%; /* Use full width */
+            margin-top: -10px;
+        }
+        .foot1-bot {
+            flex-direction: row; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            justify-content: space-between; /* Center items vertically */
+            width: 100%; /* Use full width */
+            margin-top: 10px;
         }
     
         .foot2-bot-left {
             display: flex; /* Change to flex for alignment */
-            align-items: center; /* Align icons with text */
+            align-items: end; /* Align icons with text */
             justify-content: center; /* Center items */
-            width: 100%; /* Use full width */
+            width: 13%; /* Use full width */
             gap: 5px; /* Space between icon and text */
         }
         .foot2-bot-right {
             display: flex; /* Change to flex for alignment */
             align-items: start; /* Align icons with text */
             justify-content: center; /* Center items */
-            width: 100%; /* Use full width */
+            width: 82%; /* Use full width */
             gap: 5px; /* Space between icon and text */
         }
         .foot1-bot-left {
