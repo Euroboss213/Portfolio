@@ -197,7 +197,7 @@ footer {
         .foot1-bot, .foot2-bot {
             flex-direction: row; /* Stack items vertically */
             align-items: center; /* Center items horizontally */
-            justify-content: center; /* Center items vertically */
+            justify-content: space-between; /* Center items vertically */
             width: 100%; /* Use full width */
         }
     
@@ -208,26 +208,26 @@ footer {
             width: 100%; /* Use full width */
             gap: 5px; /* Space between icon and text */
         }
+        .foot2-bot-right {
+            display: flex; /* Change to flex for alignment */
+            align-items: start; /* Align icons with text */
+            justify-content: center; /* Center items */
+            width: 100%; /* Use full width */
+            gap: 5px; /* Space between icon and text */
+        }
         .foot1-bot-left {
             display: flex; /* Change to flex for alignment */
-            align-items: center; /* Align icons with text */
-            justify-content: center; /* Center items */
-            width: 15%; /* Use full width */
+            align-items: end; /* Align icons with text */
+            justify-content: end; /* Center items */
+            width: 17%; /* Use full width */
             gap: 15px; /* Space between icon and text */
         }
     
-        .foot1-bot-right, .foot2-bot-right {
-            display: flex; /* Change to flex for alignment */
-            align-items: start; /* Align icons with text */
-            justify-content: center; /* Center items */
-            width: 100%; /* Use full width */
-            gap: 10px; /* Space between icon and text */
-        }
         .foot1-bot-right {
             display: flex; /* Change to flex for alignment */
-            align-items: start; /* Align icons with text */
+            align-items: end; /* Align icons with text */
             justify-content: center; /* Center items */
-            width: 100%; /* Use full width */
+            width: 77%; /* Use full width */
             gap: 17px;
         }
             .foot1-bot-right p {
