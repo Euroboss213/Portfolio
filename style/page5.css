@@ -19,13 +19,17 @@
         width: 100%;
         height: 17%;
         margin: 40px 0px 0px 0px;
-        font-family: 'Dhurjati';
-        font-size: 50px;
-        color: #F89700;
+        
     }   
+        .work p{
+            font-family: 'Dhurjati';
+            font-size: 50px;
+            color: #F89700;
+        }
         .work .bg-text{
             position: absolute;
             color: transparent;
+            font-family: 'Dhurjati';
             font-size: 100px;
             margin: -55px 0px 0px 0px;
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0.068); /* width and color */
@@ -42,6 +46,13 @@
             gap: 20px;
             z-index: 2;
         }
+            .bullet {
+                display: flex;
+                font-family: 'Open Sans', sans-serif;
+                color: #09B9C2;
+                font-size: 20px;
+                cursor: pointer;
+            }
             .box-nav p {
                 font-family: 'Open Sans', sans-serif;
                 color: #09B9C2;
@@ -121,6 +132,58 @@
                         transform: scale(1.04);
                         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
                     }
+
+
+@media only screen and (max-width: 600px) {
+    .work {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: 100%;
+        height: 17%;
+        margin: 40px 0px 0px 0px;
+        
+    }   
+        .work p{
+            font-family: 'Dhurjati';
+            font-size: 35px;
+            color: #F89700;
+            text-align: center;
+        }
+        .work .bg-text{
+            position: absolute;
+            color: transparent;
+            font-family: 'Dhurjati';
+            font-size: 40px;
+            margin: 25px 0px 0px 0px;
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.068); /* width and color */
+            z-index: 0;
+        }
+
+        .box-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 10%;
+            margin: 0px 0px 10px 0px;
+            gap: 8px;
+            z-index: 2;
+        }
+            .bullet {
+                display: none;
+                font-family: 'Open Sans', sans-serif;
+                color: #09B9C2;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .box-nav p {
+                font-family: 'Open Sans', sans-serif;
+                color: #09B9C2;
+                font-size: 12px;
+                cursor: pointer;
+            }
+}
 
 
 

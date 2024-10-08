@@ -9,7 +9,6 @@
         width: 100%;
         color: #fafafa;
         z-index: 1;
-        overflow-x: auto;
         overflow-x: hidden;
 }
     .skills {
@@ -23,9 +22,16 @@
         font-size: 50px;
         color: #F89700;
     }   
+        .skills p {
+            margin: 40px 0px 50px 0px;
+            font-family: 'Dhurjati';
+            font-size: 50px;
+            color: #F89700;
+        }
         .skills .bg-text{
             position: absolute;
             color: transparent;
+            font-family: 'Dhurjati';
             font-size: 100px;
             margin: -55px 0px 0px 0px;
             -webkit-text-stroke: 1px rgba(255, 255, 255, 0.068); /* width and color */
@@ -164,60 +170,179 @@
                 }
 
 
-                /* @media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    .page4 {
+        backdrop-filter: blur(3px);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            height: auto;
+            width: 100%;
+            color: #fafafa;
+            z-index: 1;
+            overflow-x: hidden;
+    }
+    .skills {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: 100%;
+        height: 1%;
+        margin: 30px 0px -60px 0px;
+        font-family: 'Dhurjati';
+        font-size: 50px;
+        color: #F89700;
+    }   
+        .skills p {
+            margin: 30px 0px 50px 0px;
+            font-family: 'Dhurjati';
+            font-size: 50px;
+            color: #F89700;
+        }
+        .skills .bg-text{
+            position: absolute;
+            color: transparent;
+            font-family: 'Dhurjati';
+            font-size: 100px;
+            margin: -30px 0px 0px 0px;
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.068); /* width and color */
+        }
 
-                    .page4 {
-                        backdrop-filter: blur(3px);
-                            position: relative;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: start;
-                            height: auto;
-                            width: 100%;
-                            color: #fafafa;
-                            z-index: 1;
-                            overflow: hidden;
-                    }
-                    .skillset {
-                        flex-direction: column;
-                        align-items: center;
-                    }
-                
-                    .skill-top {
+        .skillset {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+        }
+            .skill1, .skill2, .skill3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            }
+                .skill1 img {
+                    position: absolute;
+                    height: 300px;
+                    width: 300px;
+                    margin: 0% 5% 0% 0%;
+                    z-index: 1;
+                }
+                .skill2 img {
+                    position: absolute;
+                    height: 250px;
+                    width: 250px;
+                    margin: 0% 5% 0% 0%;
+                    z-index: 1;
+                }
+                .skill3 img {
+                    position: absolute;
+                    height: 250px;
+                    width: 250px;
+                    margin: 0% 5% 0% 0%;
+                    z-index: 1;
+                }
+
+                .skill-top {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 250px;
+                    /* border: 1px solid #F89700; */
+                } 
+                    .circle1 {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        flex-direction: column;
-                        width: 100%;
-                        height: 130px;
-                        margin-bottom: 10px; 
+                        position: absolute;
+                        width: 62px;
+                        height: 62px;
+                        margin: 22% 0% 0% 20%;
+                        color: #00E8E8;
+                        background-color: #00e8e848;
+                        border-radius: 100%;
+                        border: 2px solid #00e8e8;
+                        transition: transform 0.3s ease;
+                        z-index: 2;
                     }
-                    
-                    
-                    .skill-bot {
+                        .circle1 p {
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 12px;
+                            cursor: default;
+                        }
+                        .circle1:hover {
+                            transform: scale(1.1);
+                        }
+                    .circle2 {
                         display: flex;
                         align-items: center;
-                        justify-content: start;
-                        flex-direction: column;
-                        font-family: 'Allerta';
-                        width: 100%;
-                       
-                        margin-top: 13px; 
+                        justify-content: center;
+                        position: absolute;
+                        width: 62px;
+                        height: 62px;
+                        margin: 22% 0% 0% 20%;
+                        color: #ea02ff;
+                        background-color: #ea02ff3d;
+                        border-radius: 100%;
+                        border: 2px solid #ea02ff;
+                        transition: transform 0.3s ease;
+                        z-index: 2;
                     }
-                    
-                    .skill1, .skill2, .skill3 {
-                        height: 100%;
-                        width: 80%; 
-                        margin-bottom: 20px; 
+                        .circle2 p {
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 9px;
+                            cursor: default;
+                        }
+                        .circle2:hover {
+                            transform: scale(1.1);
+                        }
+                    .circle3 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        width: 62px;
+                        height: 62px;
+                        margin: 22% 0% 0% 20%;
+                        color: #FF6B00;
+                        background-color: #ff6a003a;
+                        border-radius: 100%;
+                        border: 2px solid #FF6B00;
+                        transition: transform 0.3s ease;
+                        z-index: 2;
                     }
-                
-                    .skills {
-                        font-size: 30px; 
-                    }
-                
-                    .skills .bg-text {
-                        font-size: 60px; 
-                    }
-                } */
-                
+                        .circle3 p {
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 12px;
+                            cursor: default;
+                        }
+                        .circle3:hover {
+                            transform: scale(1.1);
+                        }
+                .skill-bot {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    flex-direction: column;
+                    font-family: 'Allerta';
+                    width: 100%;
+                    height: 50%;
+                    margin-top: -40px;
+                }
+                .skill-bot p{
+                    font-family: 'Open Sans', sans-serif;
+                    color: #fafafa;
+                    font-size: 12px;
+                    width: 70%;
+                    text-align: center;
+                }
+}
