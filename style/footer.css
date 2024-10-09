@@ -221,7 +221,7 @@ footer {
             align-items: start; /* Align icons with text */
             justify-content: center; /* Center items */
             width: 82%; /* Use full width */
-            gap: 5px; /* Space between icon and text */
+            gap: 9px; /* Space between icon and text */
         }
         .foot1-bot-left {
             display: flex; /* Change to flex for alignment */
