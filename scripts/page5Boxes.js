@@ -76,7 +76,7 @@ function allboxex(group) {
 function adjustLayout(mediaQuery) {
     if (mediaQuery.matches) {
         // If screen width is 600px or less, set width to 85%
-        box.style.width = "85%"; 
+        box.style.width = "90%"; 
         box.style.flexDirection = "row"; // Stack vertically for smaller screens
         document.querySelectorAll('.pattern1, .pattern2').forEach(pattern => {
             pattern.style.width = "75%"; // Set boxes to 75% width for small screens
@@ -96,7 +96,7 @@ function adjustLayout(mediaQuery) {
         });
     }
     box.style.justifyContent = "center"; // Center the boxes horizontally
-    box.style.alignItems = "center"; // Center the boxes vertically
+    box.style.alignItems = "start"; // Center the boxes vertically
 }
 
 // Function to reset colors of all category buttons
@@ -127,7 +127,7 @@ webdev.addEventListener('click', function() {
     allboxex(webdevbox);
 
     if (mediaQuery.matches) {
-        box.style.width = "50%";
+        box.style.width = "70%";
     } else {
         box.style.width = "30%"; // Width for 'webdev' category
     }
@@ -142,7 +142,7 @@ webdev.addEventListener('click', function() {
 webdes.addEventListener('click', function() {
     allboxex(webdesbox);
     if (mediaQuery.matches) {
-        box.style.width = "50%";
+        box.style.width = "70%";
     } else {
         box.style.width = "30%"; // Width for 'webdev' category
     } // Width for 'webdes' category

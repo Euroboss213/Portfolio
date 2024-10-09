@@ -345,7 +345,7 @@ nav{
         }
 
 .bodyCont {
-    height: 89.5%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -478,7 +478,7 @@ nav{
         justify-content: center;
         color: #fafafa;
         height: 100vh;
-        margin-top: -100px;
+        margin-top: -110px;
         overflow: hidden;
         z-index: -1;
     }
