@@ -1,13 +1,13 @@
 const speed = 50
 const duration = 1000
-var gagi = "gagi"
-var pogi = "pogi"
-var malambing = "malambing"
-var mapagmahl = "mapagmahal"
+// var gagi = "gagi"
+// var pogi = "pogi"
+// var malambing = "malambing"
+// var mapagmahl = "mapagmahal"
 
 
 const word = document.getElementById('gagi2')
-const words = ["gagi", "ko si Tangol" , "tapang tao", "malambing"]
+const words = ["gagi", "Web Developer" , "Fresh Graduate", "malambing"]
 let i = 0
 let currentIndex = 0
 let currentword = ""

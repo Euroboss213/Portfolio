@@ -27,11 +27,11 @@ intermediate.addEventListener("mouseleave", function() {
 })
 
 expert.addEventListener("mouseover", function() {
-    expertp.textContent = "Since birth maheart"
+    expertp.textContent = "Less than a year"
     expertp.style.textAlign = "center"
     expertp.style.fontSize = "11px"
 })
 
 expert.addEventListener("mouseleave", function() {
-    expertp.textContent = "Expert"
+    expertp.textContent = "Beginner"
 })
